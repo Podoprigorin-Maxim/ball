@@ -40,7 +40,7 @@ void Ball::scale(double k)
 {
 	_r *= k;
 }
-double Ball::getArea()
+double Ball::calculateArea()
 {
-	return PI*_r*_r*_r*(4/3);
+	return PI*_r*_r*_r*(4.0/3) ;
 }

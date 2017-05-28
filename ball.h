@@ -7,7 +7,7 @@ private:
 	double _z;
 	double _r;
 public:
-	Ball(double x, double y,double z,double r);
+	Ball(double x, double y, double z, double r);
 	~Ball();
 
 	double getCenterX();
@@ -17,5 +17,5 @@ public:
 
 	void move(double x,double y,double z);
 	void scale(double k);
-	double getArea();
+	double calculateArea();
 };
